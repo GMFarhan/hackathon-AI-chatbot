@@ -1,7 +1,29 @@
-Open cmd and run this command to clone repo --> git clone https://github.com/GMfarhan/hackathon-AI-chatbot.git
-now in file explorer, double click on <start.bat> inside the the folder that you just cloned
+# Hackathon AI Chatbot
 
-enjoy your Grog based CLI chatbot
+A Groq-powered CLI chatbot built during a hackathon.
 
-<img width="834" height="478" alt="image" src="https://github.com/user-attachments/assets/a5639fee-ea9f-4a24-8f61-50009a61ca3c" />
+## Setup
 
+1. Clone the repo
+```bash
+git clone https://github.com/GMFarhan/hackathon-AI-chatbot.git
+```
+
+2. Rename `.env.example` to `.env` and add your Groq API key
+```
+GROQ_API_KEY=your_key_here
+```
+Get your API key from [console.groq.com](https://console.groq.com)
+
+3. Run the chatbot — double click `start.bat`
+
+## Screenshot
+<img width="834" height="478" alt="image" src="https://github.com/user-attachments/assets/38a263c7-ac3c-4477-9193-57073dc766ec" />
+
+
+## Built With
+- Python
+- Groq API
+
+---
+*Built at a hackathon. Archived.*
